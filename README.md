@@ -62,9 +62,16 @@ Used **TextBlob** to classify email body text into:
 - Neutral (otherwise)
 
 ### EDA
-Visualizations created to assess:
-- Sentiment label distribution
-- Monthly message volume
+
+I performed detailed EDA to understand messaging behavior and sentiment dynamics. This included:
+
+- **Sentiment Distribution:** Count of positive, negative, and neutral messages
+- **Message Volume Trends:** Messages per month over time
+- **Message Length Analysis:** Histogram and boxplot of message lengths across sentiment classes
+- **Employee Activity:** Top 10 most active employees by message volume
+- **Monthly Sentiment Breakdown:** Stacked bar chart showing sentiment shifts over time
+- **Negative Message Heatmap:** Employee vs. month matrix for frequency of negative messages
+- **Missing Data Summary:** Visualization of null counts per field (if applicable)
 
 ### Monthly Scoring
 Each message scored as:
